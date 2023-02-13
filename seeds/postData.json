@@ -1,0 +1,20 @@
+[
+    {
+      "title": "React!",
+      "content": "What i have learned about React!",
+      "date_created": "07/12/2021",
+      "user_id": 1
+    },
+    {
+      "title": "What made you decide on development?",
+      "content": "People who like stay at home fast paced jobs should consider web development.",
+      "date_created": "05/01/2019",
+      "user_id": 2
+    },
+    {
+      "title": "Processing the future",
+      "content": "Figuring out what you are going to do and process how you are going to get it done for the future deadline.",
+      "date_created": "01/11/2023",
+      "user_id": 2
+    }
+  ]

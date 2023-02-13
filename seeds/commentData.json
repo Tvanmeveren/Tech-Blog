@@ -1,0 +1,20 @@
+[
+    {
+        "content":"What do you love the most?",
+        "date_created": "02/12/2022",
+        "user_id": 2,
+        "post_id": 1
+      },
+      {
+        "content":"Where do we go from here?",
+        "date_created": "08/07/1999",
+        "user_id": 3,
+        "post_id": 2
+      },
+      {
+        "content":"Im happy im remote!",
+        "date_created": "02/14/20",
+        "user_id": 2,
+        "post_id": 3
+      }
+]
