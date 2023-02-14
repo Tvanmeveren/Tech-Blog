@@ -1,0 +1,37 @@
+{{#each posts as |post|}}
+
+        <div value="{{post.id}}"class="post">
+            <div class="postTitle">
+                <h4>{{post.title}}</h4>
+                <h6>{{format_date post.date_created}}</h6>
+            </div>
+            <div class="postContent">
+                <div>
+                    <h5>{{post.content}}</h5>
+                    <h6>   --- {{post.user.name}}</h6>
+                </div>
+            </div>
+            {{#if ../logged_in}}
+                <button class="commentBtn">Add a comment</button>
+            {{/if}}
+        
+        </div>
+
+          {{#each comments as |comment|}}
+
+              <div value="{{comment.id}}"class="post">
+                <div class="postContent">
+                    <div>
+                        <h5>{{comment.content}}</h5>
+                        <h6>   --- {{comment.user.name}}</h6>
+                    </div>
+                    <h6>{{format_date comment.date_created}}</h6>
+                </div>
+            </div>
+        
+        {{/each}}
+{{/each}}
+
+
+
+<script src="/js/comment.js"></script>

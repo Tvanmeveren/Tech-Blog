@@ -1,0 +1,141 @@
+:root {
+    --red: rgb(253, 58, 9);
+    --green: rgb(209, 250, 6);
+  }
+
+body {
+    margin: 0px;
+    background-color: var(--red);
+}
+
+h1, h2, h3, h4, h6 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    background-color: var(--green);
+}
+
+h1 {
+    color: var(--green);
+    background-color: var(--red);
+    margin-bottom: 50px ;
+    margin-left: 60px ;
+    padding: 5px;
+    border-radius: 25px ;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    width: 500px ;
+}
+
+li {
+    margin: 25px ;
+    text-decoration: underline;
+    color: var(--red);
+    font-size: larger;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashUser {
+    color: var(--green);
+    margin-top: 15px;
+}
+
+.post {
+    width: 700px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid;
+    border-width: 2px;
+    border-color: var(--green);
+    color: var(--green);
+}
+
+
+.postTitle {
+    padding-top: 8px ;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--green);
+    color: var(--red);
+    width: 700px;
+}
+
+.postTitle h4, h6 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.postContent {
+    color: var(--green);
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+a {
+    color: var(--orange);
+}
+
+#loginSignup {
+
+    background-color: var(--green);
+    border-radius: 10px;
+    height: 400px;
+    width: 750px ;
+    color: whitesmoke;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.loginSignup {
+    width: 250px;
+    background-color: var(--red);
+    height: 275px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center ;
+}
+
+.vertical-line1 {
+    width: 1px;
+    background-color: var(--red);
+    height: 275px;
+}
+
+input {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+form {
+    padding: 10px ;
+    margin-top: 20px ;
+}
+
+textarea {
+    width: 700px;
+}
+
+.hide {
+    display: none;
+}
